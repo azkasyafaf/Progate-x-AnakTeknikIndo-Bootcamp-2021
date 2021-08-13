@@ -1,0 +1,62 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Avenir Next";
+}
+
+.contents {
+    height: auto;
+    background-color: #fefefe;
+    text-align: left;
+    margin: auto;
+    width: 90%;
+}
+
+.content-item {
+    display: flex;
+}
+
+.right .text-contents {
+    margin-right: auto;
+    margin-left: 0;
+}
+
+.right .shrink {
+    display: none;
+}
+
+.content-icon {
+    padding: 10px 0;
+    text-align: center;
+    display: block;
+    width: 30%;
+}
+
+.right .content-icon {
+    padding: 10px 0;
+    text-align: center;
+    display: block;
+    width: 40%;
+}
+
+.text-contents {
+    margin: auto;
+    margin-right: 0;
+    width: 60%;
+}
+
+.text-contents h3 {
+    padding-bottom: 10px;
+    font-size: 36px;
+}
+
+.text-contents p {
+    font-size: 24px;
+    color: #b3aeb5;
+    width: 80%
+}

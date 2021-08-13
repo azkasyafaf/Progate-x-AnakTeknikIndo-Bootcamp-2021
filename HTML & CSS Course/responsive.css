@@ -1,0 +1,57 @@
+@media all and (max-width: 1000px) {
+
+}
+  
+/* For Smartphones */
+@media all and (max-width: 670px) {    
+  img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .right img {
+    width: 300px;
+  }
+
+  .content-item {
+    display: block;
+    text-align: center;
+    padding: 0;
+  }
+
+  .content-icon {
+    width: 100%;
+    padding: 0;
+  }
+
+  .right .content-icon {
+    width: 100%;
+    padding: 0;
+  }
+
+  .right .text-contents {
+    display: none;
+  }
+
+  .right .shrink {
+    display: inline-block;
+  }
+
+  .text-contents {
+    display: inline-block;
+    padding: 0;
+    padding-bottom: 20px;
+    margin: 0;
+    width: 80%;
+  }
+
+  .text-contents h3 {
+    font-size: 24px;
+    padding-bottom: 5px;
+  }
+
+  .text-contents p {
+    width: 100%;
+    font-size: 16px;
+  }
+}
